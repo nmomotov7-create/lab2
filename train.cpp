@@ -3,7 +3,8 @@
 TRAIN::TRAIN() : destination(""), number(0), time("00:00") {}
 
 TRAIN::TRAIN(string destination, int number, string time)
-    : destination(destination), number(number), time(time) {}
+    : destination(destination), number(number), time(time) {
+}
 
 string TRAIN::getDestination() {
     return this->destination;
